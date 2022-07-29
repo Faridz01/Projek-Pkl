@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controller\PelangganController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,3 +23,14 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 // route pelanggan
 Route::resource('pelanggan', PelangganController::class);
+// route admin
+
+// route keluhan
+
+// route mekanik
+
+// route barang
+
+// route service
+
+// route laporan
